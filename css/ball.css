@@ -1,0 +1,1777 @@
+
+.h-title {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll 9999px 9999px transparent;
+    display: inline;
+    float: left;
+    text-indent: -9999px;
+}
+.h-title.h1 {
+    height: 20px;
+    left: 10px;
+    position: absolute;
+    top: 8px;
+    width: 80px;
+}
+.h-title.h2 {
+    height: 16px;
+    margin-left: 10px;
+    width: 64px;
+}
+.invisible {
+    color: #F6F6F6;
+}
+.virtual {
+    display: block;
+    position: absolute;
+    visibility: hidden;
+}
+.lazyload {
+    display: none;
+}
+.loading {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+.float-tip {
+    background-color: #FFF0E5;
+    border: 1px solid #F29B85;
+    color: #404040;
+    cursor: default;
+    padding: 3px 5px;
+    position: absolute;
+}
+#c-wrapper {
+    color: #404040;
+    margin: 0 auto;
+    width: 990px;
+}
+#c-wrapper .c-grid-main {
+    float: left;
+    width: 790px;
+}
+#c-wrapper .c-grid-extra {
+    float: right;
+    width: 230px;
+}
+.c-header {
+    background: url("http://img03.taobaocdn.com/tps/i3/T1ul1LXlJdXXXXXXXX-2-390.png") repeat-x scroll 0 30px transparent;
+    height: 90px;
+}
+.c-header h2 {
+    float: left;
+    height: 90px;
+    text-indent: -9999px;
+    width: 95px;
+}
+.c-header .content {
+    background: url("http://img03.taobaocdn.com/tps/i3/T1ul1LXlJdXXXXXXXX-2-390.png") no-repeat scroll 893px -250px transparent;
+    float: right;
+    position: relative;
+    width: 895px;
+}
+.c-header .content .header {
+    height: 30px;
+}
+.c-header .content .header h3 {
+    float: left;
+    height: 18px;
+    margin: 5px 15px 0 0;
+    text-indent: -9999px;
+}
+.c-header .content .header p {
+    float: left;
+    margin: 6px 25px 0 0;
+}
+.c-header .content .header p em {
+    font-weight: 700;
+}
+.c-header .content .header p em.issue {
+    color: #FF0000;
+}
+.c-header .content .header span {
+    display: inline-block;
+    float: left;
+    height: 14px;
+    margin-top: 9px;
+    text-indent: -9999px;
+}
+.c-header .content .header .info {
+    float: right;
+    line-height: 30px;
+    padding-right: 15px;
+    text-align: right;
+    width: 300px;
+}
+.c-header .content .header .info a {
+    color: #FF0000;
+}
+.c-header .content .header .info a:hover {
+    color: #FF0000;
+    text-decoration: underline;
+}
+.c-header .content .referlink {
+    line-height: 25px;
+    position: absolute;
+    right: 0;
+    top: 32px;
+}
+.c-header .content .referlink a {
+    color: #404040;
+    float: left;
+    margin-right: 15px;
+}
+.c-header .content .referlink a:hover {
+    color: #404040;
+    text-decoration: underline;
+}
+.main-tab {
+    height: 31px;
+}
+.main-tab li, .mojo-rules .tab-nav li {
+    background: url("http://img03.taobaocdn.com/tps/i3/T1ul1LXlJdXXXXXXXX-2-390.png") repeat-x scroll 0 -60px transparent;
+    float: left;
+    font-weight: 700;
+    height: 24px;
+    margin-right: 4px;
+    padding: 5px 15px 0;
+    position: relative;
+}
+.main-tab li em, .mojo-rules .tab-nav li em {
+    height: 29px;
+    position: absolute;
+    top: 0;
+    width: 2px;
+}
+.main-tab li .l, .mojo-rules .tab-nav li .l {
+    background: url("http://img03.taobaocdn.com/tps/i3/T1ul1LXlJdXXXXXXXX-2-390.png") no-repeat scroll 0 -90px transparent;
+    left: 0;
+}
+.main-tab li .r, .mojo-rules .tab-nav li .r {
+    background: url("http://img03.taobaocdn.com/tps/i3/T1ul1LXlJdXXXXXXXX-2-390.png") no-repeat scroll 0 -120px transparent;
+    right: 0;
+}
+.main-tab li.current, .mojo-rules .tab-nav li.current {
+    background: url("http://img03.taobaocdn.com/tps/i3/T1ul1LXlJdXXXXXXXX-2-390.png") repeat-x scroll 0 -150px transparent;
+}
+.main-tab li.current .l, .mojo-rules .tab-nav li.current .l {
+    background: url("http://img03.taobaocdn.com/tps/i3/T1ul1LXlJdXXXXXXXX-2-390.png") no-repeat scroll 0 -180px transparent;
+}
+.main-tab li.current .r, .mojo-rules .tab-nav li.current .r {
+    background: url("http://img03.taobaocdn.com/tps/i3/T1ul1LXlJdXXXXXXXX-2-390.png") no-repeat scroll 0 -210px transparent;
+}
+.main-tab li a, .mojo-rules .tab-nav li a {
+    color: #C40420;
+}
+.main-tab li.current a, .mojo-rules .tab-nav li.current a {
+    color: #FFFFFF;
+}
+.sub-tab {
+    height: 29px;
+    padding-left: 5px;
+}
+.sub-tab span {
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    height: 22px;
+    margin-top: 3px;
+    padding: 4px 10px 0;
+}
+.sub-tab span.current {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #404040;
+    font-weight: 700;
+}
+.mojo-bet {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #C9C9C9 #C9C9C9 -moz-use-text-color;
+    border-image: none;
+    border-width: 1px 1px 0;
+    position: relative;
+}
+.mojo-bet .h-title {
+    background-position: -200px -60px;
+}
+.mojo-bet .zs-title .h-title {
+    background-position: -200px -100px;
+}
+.abacus-nav {
+    background: none repeat scroll 0 0 #F4F4F4;
+    height: 36px;
+    padding-left: 106px;
+    position: relative;
+}
+.abacus-nav .zs-promotion {
+    color: #9B9A9A;
+    display: none;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+    width: 200px;
+}
+.abacus-nav .list label {
+    display: inline-block;
+    height: 27px;
+    margin-right: 16px;
+    padding-top: 9px;
+}
+.abacus-nav .list label.current {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll -495px -349px transparent;
+}
+.abacus-nav .list input {
+    margin-right: 6px;
+    vertical-align: middle;
+}
+.zs-title .zs-promotion {
+    display: block;
+}
+.remain-time {
+    background: url("http://img02.taobaocdn.com/tps/i2/T1SjqVXdNgXXXXXXXX-240-19.png") no-repeat scroll 0 0 transparent;
+    line-height: 20px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 65px;
+    width: 240px;
+}
+.remain-time span {
+    color: #FF0000;
+}
+.remain-time span em {
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 2px;
+}
+.mojo-bet .loading {
+    height: 200px;
+    line-height: 200px;
+    width: 738px;
+}
+.playtip {
+    background: none repeat scroll 0 0 #E2E2E2;
+    border-top: 1px solid #C9C9C9;
+    color: #808080;
+    line-height: 28px;
+    padding-left: 10px;
+}
+.playtip ul li {
+    cursor: pointer;
+    float: left;
+    padding: 0 10px;
+}
+.playtip ul li.current {
+    color: #404040;
+    font-weight: 700;
+}
+.bd .omit {
+    border-bottom: 1px dashed #9A9A9A;
+    color: #9A9A9A;
+    cursor: default;
+    margin-left: 4px;
+    padding-bottom: 2px;
+}
+.abacus .hd {
+    font-weight: 700;
+    margin-top: 18px;
+}
+.abacus .hd .main-tip {
+    color: #D90000;
+    display: inline;
+    margin-left: 110px;
+}
+.abacus .hd span {
+    font-weight: 400;
+}
+.abacus .bd {
+    margin-top: 12px;
+}
+.abacus .ball-toolbar {
+    margin-top: 0;
+}
+.abacus .bd .row {
+    overflow: hidden;
+    width: 100%;
+}
+.abacus .bd .row .indicate {
+    display: inline;
+    float: left;
+    margin-left: 23px;
+    margin-top: 5px;
+    width: 86px;
+}
+.abacus .bd .row .indicate .bit {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll 0 -410px transparent;
+    color: #8B8B8B;
+    display: block;
+    font-weight: 700;
+    height: 23px;
+    line-height: 23px;
+    padding-left: 2px;
+    width: 60px;
+}
+.abacus .bd .row .indicate .h {
+    padding-left: 12px;
+}
+.abacus .bd .row .ball-list, .abacus .bd .row .ball-random {
+    float: left;
+    padding: 4px 0;
+}
+.abacus .bd .row .ball-list li {
+    float: left;
+    margin-right: 8px;
+    text-align: center;
+    width: 26px;
+	list-style: none outside none;
+}
+.abacus .bd .row .ball-list li .ball {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll -350px 0 transparent;
+    cursor: pointer;
+    display: block;
+    font-weight: 700;
+    height: 30px;
+    line-height: 28px;
+}
+.abacus .bd .row .ball-list li.selected .ball {
+    background-position: -430px 0;
+    color: #FFFFFF;
+}
+.abacus .bd .row .ball-list li.subselected .ball {
+    background-position: -509px 0;
+}
+.abacus .bd .row .ball-list li.filter .ball {
+    background-position: -550px 0;
+}
+.abacus .bd .row .ball-list li em {
+    color: #B0B0B0;
+}
+.abacus .bd .row .ball-list li .big {
+    color: #D90000;
+}
+.abacus .row.disabled .ball-list {
+    color: #FFFFFF;
+}
+.abacus .bd .row .ball-random select {
+    margin-right: 5px;
+    width: 50px;
+}
+.abacus .bd .row .ball-random button {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll -100px -410px transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 20px;
+    padding-bottom: 3px;
+    text-align: center;
+    width: 67px;
+}
+.abacus .bd .row .ball-random button.red {
+    color: #D90000;
+}
+.abacus .bd .row .ball-random button.blue {
+    color: #224EA5;
+}
+.abacus .ft {
+    padding-top: 15px;
+}
+.abacus .ft .filter {
+    margin-bottom: 10px;
+    padding-left: 172px;
+}
+.abacus .ft .filter select {
+    width: 50px;
+}
+.abacus .ft .indicator {
+    padding-left: 272px;
+}
+.abacus .ft .indicator em {
+    font-family: arial;
+    font-weight: 700;
+}
+.abacus .ft .indicator .money {
+    color: #D90000;
+}
+.abacus .ft .add-abacus {
+    height: 32px;
+    margin-top: 10px;
+    position: relative;
+}
+.abacus .ft .add-abacus button {
+    background: url("http://img02.taobaocdn.com/tps/i2/T1OL5VXfVoXXXXXXXX-159-32.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 32px;
+    left: 272px;
+    position: absolute;
+    text-indent: -9999px;
+    width: 159px;
+}
+.abacus .ft .add-abacus .clear-all {
+    color: #808080;
+    cursor: pointer;
+    left: 442px;
+    position: absolute;
+    top: 6px;
+}
+.mode1 .hd .main-tip {
+    width: 600px;
+}
+.mode1 .bd .row .ball-list {
+    width: 600px;
+}
+.mode1 .bd .row .ball-random {
+    float: right;
+    padding-right: 60px;
+}
+.mode2 .hd .main-tip {
+    float: left;
+    width: 400px;
+}
+.mode2 .hd .help-tip {
+    color: #808080;
+    float: left;
+}
+.mode2 .bd .row .ball-list {
+    border-right: 1px solid #D9D9D9;
+    width: 375px;
+}
+.mode2 .bd .row .help {
+    float: left;
+    margin: 9px 0 0 29px;
+}
+.mode2 .bd .row .help a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D0D0D0;
+    color: #808080;
+    cursor: pointer;
+    float: left;
+    margin-right: 6px;
+    padding: 0 3px;
+}
+.mode2 .bd .row .help a:hover {
+    color: #FF6600;
+    text-decoration: underline;
+}
+.mode2 .bd .row.disabled .help a:hover {
+    color: #808080;
+    text-decoration: none;
+}
+.mode3 .uprule {
+    color: #808080;
+    margin: 10px 0 0 80px;
+}
+.mode3 .uprule dt {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll -730px -406px transparent;
+    color: #707070;
+    font-weight: 700;
+    line-height: 20px;
+    padding-left: 20px;
+}
+.mode3 .uprule dt a {
+    font-weight: 400;
+}
+.mode3 .uprule dd {
+    padding-left: 20px;
+}
+.mode3 .betbox {
+    color: #808080;
+    margin: 15px 0 0 100px;
+}
+.mode3 .betbox h4 {
+    color: #707070;
+    float: left;
+    padding-top: 4px;
+}
+.mode3 .betbox textarea {
+    color: #B5B5B5;
+    float: left;
+    height: 95px;
+    padding: 4px;
+    width: 400px;
+}
+.mode3 .fileup .betbox iframe {
+    height: 40px;
+    width: 500px;
+}
+.mode4 .hd .main-tip {
+    float: left;
+    margin-left: 90px;
+    width: 410px;
+}
+.mode4 .hd .extra-tip {
+    color: #224EA5;
+    display: inline-block;
+    float: left;
+    width: 220px;
+}
+.mode4 .bd .row .indicate {
+    margin: 10px 0 0 10px;
+    width: 80px;
+}
+.mode4 .bd .row .ball-list, .mode4 .bd .row .ball-random {
+    border-right: 1px solid #D9D9D9;
+    width: 390px;
+}
+.mode4 .bd .row .ball-random {
+    padding-top: 12px;
+}
+.mode4 .bd .row .extra {
+    border: 0 none;
+    margin-left: 16px;
+    width: 220px;
+}
+.mode4 .bd .row .extra li.selected .ball {
+    background-position: -390px 0;
+}
+.mode4 .bd .row .extra li.subselected .ball {
+    background-position: -470px 0;
+}
+.mode5 {
+    padding-bottom: 12px;
+}
+.mode5 table {
+}
+.mode5 td {
+    line-height: 22px;
+    padding: 3px 0;
+    text-align: left;
+    vertical-align: top;
+}
+.mode5 .td1 {
+    font-weight: 700;
+    padding-right: 6px;
+    text-align: right;
+    width: 98px;
+}
+.mode5 .td2 {
+    padding-left: 6px;
+}
+.mode5 em {
+    font-weight: 700;
+}
+.mode5 span {
+    color: #666666;
+}
+.mode5 input {
+    border: 1px solid #CCCCCC;
+    color: #808080;
+    height: 18px;
+    line-height: 18px;
+    padding-left: 2px;
+}
+.mode5 s {
+    display: inline-block;
+    width: 20px;
+}
+.mode5 .ipt1 {
+    width: 350px;
+}
+.mode5 .ipt2 {
+    width: 70px;
+}
+.mode5 .mr-addition, .mode5 .mr-is-stop {
+    border: medium none;
+    position: relative;
+    top: 5px;
+}
+.mode5 .mr-reward {
+    padding-right: 2px;
+    text-align: right;
+}
+.mode5 button {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll -9999px -9999px transparent;
+    border: 0 none;
+    cursor: pointer;
+    display: inline-block;
+    height: 22px;
+    margin: 0 5px;
+    position: relative;
+    vertical-align: middle;
+    width: 22px;
+}
+.mode5 button.sub {
+    background-position: -548px -300px;
+}
+.mode5 button.add {
+    background-position: -521px -300px;
+}
+.mode5 p {
+    margin-bottom: 5px;
+}
+.bet-basket {
+    margin-top: 12px;
+    width: 100%;
+}
+.bet-basket .select-list {
+    border: 1px solid #CCCCCC;
+    float: left;
+    height: 130px;
+    margin-left: 166px;
+    overflow: hidden;
+    width: 348px;
+}
+.bet-basket .operate-list {
+    float: left;
+    margin-left: 12px;
+    margin-top: 4px;
+}
+.bet-basket .operate-list li {
+    height: 24px;
+    width: 67px;
+}
+.bet-basket .operate-list li.random-five {
+    border-bottom: 1px dashed #D2D2D2;
+    margin-bottom: 4px;
+}
+.bet-basket .operate-list li a {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll 9999px 9999px transparent;
+    display: block;
+    height: 20px;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+.bet-basket .operate-list li.random-one a {
+    background-position: -640px 0;
+}
+.bet-basket .operate-list li.random-five a {
+    background-position: -640px -22px;
+}
+.bet-basket .operate-list li.modify-one a {
+    background-position: -640px -66px;
+}
+.bet-basket .operate-list li.delete-one a {
+    background-position: -640px -44px;
+}
+.bet-basket .operate-list li.clear-list a {
+    background-position: -640px -88px;
+}
+.bet-toolbar {
+    height: 30px;
+    line-height: 30px;
+    margin: 10px auto;
+    text-align: center;
+}
+.bet-toolbar .bet-bt {
+    margin-right: 35px;
+}
+.bet-toolbar .bet-bt input {
+    border: 1px solid #CCCCCC;
+    height: 20px;
+    margin-right: 5px;
+    padding-left: 5px;
+    vertical-align: middle;
+    width: 50px;
+}
+.bet-toolbar .bet-zhs {
+    margin-right: 20px;
+}
+.bet-toolbar .bet-zhs em, .bet-je em {
+    font-weight: bold;
+    margin-right: 3px;
+}
+.bet-extra {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll 0 -450px transparent;
+    height: 13px;
+    margin: 0 -1px;
+    width: 740px;
+}
+.inpt {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll 0 -380px transparent;
+}
+.mojo-buyway {
+    border: 1px solid #C9C9C9;
+    position: relative;
+}
+.mojo-buyway .h-title {
+    background-position: -200px -80px;
+}
+.select-pattern {
+    background: none repeat scroll 0 0 #F8F8F8;
+    border-bottom: 1px solid #C9C9C9;
+    height: 37px;
+    padding-left: 106px;
+}
+.select-pattern li {
+    float: left;
+}
+.select-pattern label {
+    display: inline-block;
+    height: 28px;
+    margin-right: 16px;
+    padding-top: 9px;
+}
+.select-pattern label input {
+    margin-right: 6px;
+    vertical-align: middle;
+}
+.select-pattern label span {
+    vertical-align: middle;
+}
+.pattern-info {
+    height: 37px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+    width: 320px;
+}
+.pattern-info li {
+    color: #808080;
+    line-height: 37px;
+    padding-right: 10px;
+}
+.confirm {
+    background: none repeat scroll 0 0 #F2F2F2;
+    border-top: 1px solid #FFFFFF;
+    padding: 5px 10px;
+    position: relative;
+}
+.confirm-info {
+    float: left;
+    margin-top: 12px;
+}
+.confirm-info input {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.confirm-btn, .confirm-num {
+    float: right;
+}
+.confirm-num {
+    margin-top: 3px;
+    position: relative;
+}
+.confirm-num span {
+    margin-right: 8px;
+}
+.confirm-num .confirm-je em {
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+}
+.confirm-btn button {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll 9999px 9999px transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 40px;
+    vertical-align: middle;
+    width: 150px;
+}
+.confirm-btn button.status1 {
+    background-position: 0 0;
+}
+.confirm-btn button.status2 {
+    background-position: 0 -40px;
+    cursor: default;
+}
+.confirm-btn button.status3 {
+    background-position: 0 -80px;
+    cursor: default;
+}
+.confirm-btn button.status4 {
+    background-position: 0 -120px;
+    cursor: default;
+}
+.confirm-btn button.status5 {
+    background-position: 0 -160px;
+    cursor: default;
+}
+.confirm-btn button.status6 {
+    background-position: 0 -200px;
+    cursor: default;
+}
+.confirm-btn button.status7 {
+    background-position: 0 -240px;
+    cursor: default;
+}
+.confirm-btn button.add-lotcart {
+    background: url("http://img04.taobaocdn.com/tps/i4/T1ncbyXnNoXXcXi_.5-108-40.png") no-repeat scroll 0 0 transparent;
+    width: 108px;
+}
+.zh {
+    background: none repeat scroll 0 0 #F8F8F8;
+    border-bottom: 1px solid #C9C9C9;
+    padding: 20px 10px 25px;
+}
+.zh .hd {
+    border-bottom: 1px solid #D9D9D9;
+    height: 22px;
+    position: relative;
+}
+.zh .hd ul {
+    position: absolute;
+    top: 0;
+}
+.zh .hd ul li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D9D9D9;
+    color: #404040;
+    cursor: pointer;
+    float: left;
+    height: 21px;
+    line-height: 21px;
+    margin-right: 5px;
+    padding: 0 20px;
+}
+.zh .hd ul li.current {
+    background: none repeat scroll 0 0 #F1F1F1;
+    border-bottom: 1px solid #F1F1F1;
+    font-weight: 700;
+}
+.zh .hd .tip {
+    color: #808080;
+    height: 22px;
+    line-height: 22px;
+    margin-left: 200px;
+}
+.zh .hd .assist-zh {
+    color: #7D7D7D;
+    height: 19px;
+    line-height: 19px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+.zh .hd .assist-zh a {
+    background: none repeat scroll 0 0 #F2F2F2;
+    border: 1px solid #D0D0D0;
+    color: #404040;
+    display: inline-block;
+    height: 17px;
+    line-height: 17px;
+    margin-right: 4px;
+    padding: 0 4px;
+}
+.zh .hd .assist-zh a:hover {
+    background: none repeat scroll 0 0 #FF6600;
+    border-color: #FF6600;
+    color: #FFFFFF;
+}
+.zh .hd .assist-zh em {
+    color: #1450DC;
+    cursor: pointer;
+    margin-left: 2px;
+}
+.zh .bd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #D9D9D9;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 1px 1px;
+}
+.zh .stop-zh {
+    background: none repeat scroll 0 0 #F1F1F1;
+    border-top: 2px solid #FFFFFF;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 25px;
+}
+.zh .stop-zh input, .stop-zh em {
+    vertical-align: middle;
+}
+.zh .stop-zh .reward {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll 0 -380px transparent;
+    border: 1px solid #CCCCCC;
+    height: 20px;
+    margin-right: 4px;
+    text-align: right;
+    width: 70px;
+}
+.simple {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top: 4px solid #F1F1F1;
+    line-height: 39px;
+}
+.simple .sub-bd {
+    color: #404040;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.simple .sub-bd button {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll -9999px -9999px transparent;
+    border: 0 none;
+    cursor: pointer;
+    display: inline-block;
+    height: 22px;
+    margin: 0 5px;
+    position: relative;
+    vertical-align: middle;
+    width: 22px;
+}
+.simple .sub-bd button.sub {
+    background-position: -548px -300px;
+}
+.simple .sub-bd button.add {
+    background-position: -521px -300px;
+}
+.simple .sub-bd input {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll 0 -380px transparent;
+    border: 1px solid #CCCCCC;
+    height: 20px;
+    padding-left: 5px;
+    vertical-align: middle;
+    width: 50px;
+}
+.simple .stop-zh {
+    background: none repeat scroll 0 0 transparent;
+    margin: -8px 0 0 83px;
+    padding-bottom: 10px;
+}
+.standard .sub-hd {
+    background: none repeat scroll 0 0 #F1F1F1;
+    line-height: 33px;
+    width: 100%;
+}
+.standard .sub-hd li {
+    color: #808080;
+    float: left;
+    font-weight: 700;
+}
+.standard .serial {
+    text-align: center;
+    width: 60px;
+}
+.standard .switch-issue {
+    width: 180px;
+}
+.standard .switch-issue input {
+    vertical-align: middle;
+}
+.standard .bt {
+    width: 220px;
+}
+.standard .bt input {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll 0 -380px transparent;
+    border: 1px solid #CCCCCC;
+    font-weight: 400;
+    height: 20px;
+    padding-left: 5px;
+    vertical-align: middle;
+    width: 50px;
+}
+.standard .money {
+    width: 90px;
+}
+.standard .opentime {
+    width: 145px;
+}
+.standard .sub-bd ul {
+    height: 416px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.standard .sub-bd ul li {
+    line-height: 32px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.standard .sub-bd ul li.altertant {
+    background: none repeat scroll 0 0 #F1F1F1;
+}
+.standard .sub-bd ul li span {
+    float: left;
+}
+.standard .sub-bd ul li .serial {
+    font-family: arial;
+    font-weight: 700;
+}
+.standard .sub-bd ul li .switch-issue em {
+    color: #FF0000;
+    margin-left: 3px;
+}
+.standard .sub-bd ul li .money em {
+    color: #FF0000;
+    font-family: arial;
+    margin-right: 3px;
+}
+.hm {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #C9C9C9;
+    padding: 20px 10px 25px;
+}
+.hm table {
+}
+.hm td {
+    line-height: 22px;
+    padding: 3px 0;
+    text-align: left;
+    vertical-align: top;
+}
+.hm .td1 {
+    font-weight: 700;
+    padding-right: 6px;
+    text-align: right;
+    width: 98px;
+}
+.hm .td2 {
+    padding-left: 6px;
+}
+.hm .pa {
+    font-weight: 700;
+    margin-left: -12px;
+}
+.hm input, .hm textarea {
+    border: 1px solid #CCCCCC;
+    color: #808080;
+}
+.hm input {
+    height: 18px;
+    line-height: 18px;
+}
+.hm span {
+    color: #666666;
+    margin-left: 13px;
+}
+.hm .tips {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll -723px -495px transparent;
+    border: 1px solid #FFCC7F;
+    color: #404040;
+    line-height: 1.5;
+    padding: 3px 10px 3px 23px;
+    width: 477px;
+}
+.hm .declaration {
+    height: 46px;
+    padding: 3px;
+    width: 348px;
+}
+.hm .title {
+    padding-left: 3px;
+    width: 351px;
+}
+.hm .txt1 {
+    width: 48px;
+}
+.hm .fee, .hm .buy-minnum, .hm .buy-minfee, .hm .minfee {
+    color: #FF0000;
+    font-weight: 700;
+}
+.hm .declar * {
+    vertical-align: top;
+}
+.hm .gray {
+    margin-left: 6px;
+}
+.hm .s1, .hm .s4 {
+    margin-left: 0;
+}
+.hm .s1 em {
+    font-weight: 700;
+}
+.zs {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #C9C9C9;
+    padding: 10px;
+}
+.zs .phone {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll -9999px -9999px transparent;
+}
+.zs input {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll 0 -380px transparent;
+    border: 1px solid #CCCCCC;
+}
+.zs .hd {
+    background: none repeat scroll 0 0 #E2E2E2;
+    color: #707070;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+}
+.zs .bd {
+    padding: 15px 20px;
+    position: relative;
+}
+.zs .zs-history-list {
+    color: #707070;
+    display: block;
+    font-weight: 700;
+    line-height: 25px;
+    position: absolute;
+    right: 2px;
+    top: -28px;
+    width: 180px;
+    z-index: 100;
+}
+.zs .zs-history-list {
+    position: absolute;
+}
+.zs .zs-history-list .fold {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll -190px -211px transparent;
+    cursor: pointer;
+    padding-left: 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 165px;
+}
+.zs .zs-history-list .unfold {
+    background: none repeat scroll 0 0 #F0F0F0;
+    padding-bottom: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 180px;
+}
+.zs .zs-history-list dt {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll -190px -246px transparent;
+    cursor: pointer;
+    height: 25px;
+    padding-left: 15px;
+}
+.zs .zs-history-list dd {
+    color: #585858;
+    font-weight: 400;
+    height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.zs .zs-history-list dd.phone {
+    background-position: -390px -217px;
+}
+.zs .zs-history-list dd.wangwang label {
+    margin-left: 15px;
+    padding-right: 10px;
+    width: 125px;
+}
+.zs .zs-history-list dd.wangwang label span {
+    margin-right: 7px;
+}
+.zs .zs-history-list dd.hover {
+    background-color: #FFDDB2;
+}
+.zs .zs-history-list dd.loading {
+    color: #A5A5A5;
+    height: 100px;
+}
+.zs .zs-history-list label {
+    display: inline-block;
+    margin-left: 40px;
+    width: 110px;
+}
+.zs .zs-history-list dd.wangwang label {
+    color: #224EA5;
+}
+.zs .zs-history-list dd.zs-operation span {
+    cursor: pointer;
+    display: inline-block;
+}
+.zs .zs-history-list dd .close {
+    float: left;
+    margin-left: 20px;
+}
+.zs .zs-history-list dd .add {
+    color: #224EA5;
+    float: right;
+    margin-right: 15px;
+    width: 85px;
+}
+.zs .zs-hd {
+    color: #A5A5A5;
+}
+.zs .zs-hd input {
+    background: none repeat scroll 0 0 transparent;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0;
+    padding-left: 5px;
+    width: 670px;
+}
+.zs .zs-hd input.hint {
+    color: silver;
+}
+.zs .zs-hd a {
+    background: none repeat scroll 0 0 #F2F2F2;
+    border: 1px solid #D0D0D0;
+    color: #404040;
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    width: 100px;
+}
+.zs .zs-hd a:hover {
+    background: none repeat scroll 0 0 #FF6600;
+    border-color: #FF6600;
+    color: #FFFFFF;
+}
+.zs .zs-bd {
+    border: 1px solid #E2E2E2;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.zs .zs-bd h4 {
+    background: none repeat scroll 0 0 #E2E2E2;
+    color: #707070;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+    position: relative;
+}
+.zs .zs-bd .tip {
+    color: #808080;
+    font-weight: 400;
+    left: 75px;
+    position: absolute;
+    top: 0;
+}
+.zs .zs-bd table {
+    border-top: 1px solid #D9D9D9;
+    margin-top: -1px;
+    text-align: center;
+}
+.zs .zs-bd table th {
+    background: none repeat scroll 0 0 #F0F0F0;
+    color: #585858;
+    font-weight: 700;
+    height: 40px;
+}
+.zs .zs-bd table th a {
+    font-weight: 400;
+}
+.zs .zs-bd table .serial {
+    width: 30px;
+}
+.zs .zs-bd table .nick {
+    text-align: left;
+    width: 150px;
+}
+.zs .zs-bd table .nick input {
+    position: relative;
+    top: 2px;
+}
+.zs .zs-bd table .nick em {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+}
+.zs .zs-bd table .nick .ww-light {
+    margin: 0 5px 0 1px;
+}
+.zs .zs-bd table .nick .phone {
+    background-position: -403px -208px;
+    padding-left: 25px;
+}
+.zs .zs-bd table .bt {
+    position: relative;
+    text-align: left;
+    width: 110px;
+}
+.zs .zs-bd table .bt em {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll -600px -150px transparent;
+    color: #FF6600;
+    height: 30px;
+    margin: -30px 0 0 -30px;
+    position: absolute;
+    text-align: center;
+    width: 64px;
+}
+.zs .zs-bd table .bt input {
+    height: 20px;
+    line-height: 20px;
+    width: 40px;
+}
+.zs .zs-bd table .money {
+    width: 115px;
+}
+.zs .zs-bd table td.msg {
+    color: #808080;
+    height: 40px;
+    padding: 5px 10px;
+    text-align: left;
+}
+.zs .zs-bd table td.msg input {
+    height: 20px;
+    line-height: 20px;
+    width: 210px;
+}
+.mojo-prompt {
+    background: none repeat scroll 0 0 #F8F8F8;
+    border: 1px solid #C9C9C9;
+    position: relative;
+    text-align: center;
+}
+.prompt-document {
+    margin: 0 33px 25px;
+    padding-top: 10px;
+    text-align: left;
+}
+.prompt-document p.item {
+    text-indent: 2em;
+}
+.prompt-docshow {
+    margin-top: 50px;
+}
+.prompt-docshow input {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.cp-msgbet {
+    background-color: white;
+    border: 1px solid #D90000;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 540px;
+    z-index: 1000;
+}
+.cp-msgbet .hd {
+    background-color: #D90000;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+}
+.cp-msgbet .bd {
+    border-left: 4px solid #FFD9D9;
+    border-right: 4px solid #FFD9D9;
+    border-top: 4px solid #FFD9D9;
+}
+.cp-msgbet .ft {
+    border-bottom: 4px solid #FFD9D9;
+    border-left: 4px solid #FFD9D9;
+    border-right: 4px solid #FFD9D9;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+}
+.cp-msgbet .left {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll 20px -539px transparent;
+    float: left;
+    height: 230px;
+    position: relative;
+    width: 220px;
+}
+.cp-msgbet .right {
+    float: left;
+    width: 290px;
+}
+.cp-msgbet .left .msg-title {
+    color: white;
+    left: 25px;
+    padding-left: 5px;
+    position: absolute;
+    top: 48px;
+}
+.cp-msgbet .left .msg-body {
+    left: 25px;
+    line-height: 19px;
+    position: absolute;
+    top: 65px;
+    width: 170px;
+    word-wrap: break-word;
+}
+.cp-msgbet .left .msg-tip {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll -240px -559px transparent;
+    height: 41px;
+    left: 20px;
+    padding: 3px 6px 0 24px;
+    position: absolute;
+    top: 175px;
+    width: 150px;
+}
+.cp-msgbet .msgbet-list {
+    margin-top: 17px;
+}
+.cp-msgbet .msgbet-list li {
+    line-height: 19px;
+    list-style: decimal inside none;
+}
+.cp-msgbet .pay {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll -240px -608px transparent;
+    border: 0 none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    height: 25px;
+    width: 59px;
+}
+.cp-msgbet .cancel {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll -240px -638px transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 25px;
+    width: 59px;
+}
+.mojo-rules .loading {
+    width: 738px;
+}
+.mojo-rules .tab-nav {
+    background: url("http://img03.taobaocdn.com/tps/i3/T1ul1LXlJdXXXXXXXX-2-390.png") repeat-x scroll 0 -359px transparent;
+    height: 31px;
+}
+.mojo-rules .tab-pannel {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #C9C9C9;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    overflow: hidden;
+}
+.rules-table {
+    text-align: center;
+}
+.rules-table th {
+    background: none repeat scroll 0 0 #E4E4E4;
+    line-height: 32px;
+}
+.rules-table td {
+    border-right: 1px solid #E6E6E6;
+    border-top: 1px solid #E6E6E6;
+}
+.mojo-announce {
+    background: none repeat scroll 0 0 #FFFAED;
+    border: 1px solid #F3B582;
+    padding: 5px;
+}
+.mojo-announce ul {
+    margin-top: 5px;
+}
+.mojo-announce li {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll -733px -368px transparent;
+    line-height: 20px;
+    padding-left: 15px;
+}
+.mojo-announce li a, .mojo-announce li a:link, .mojo-announce li a:visited {
+    color: #282828;
+}
+.mojo-announce li a:hover, .mojo-announce li a:active {
+    color: #FF722D;
+    text-decoration: underline;
+}
+.mojo-announce li.red a {
+    color: #FF0000;
+}
+.mojo-awardresult .hd, .mojo-help .hd, .mojo-rank .hd {
+    height: 16px;
+    padding: 3px 0 10px;
+}
+.mojo-awardresult .h-title {
+    background-position: -200px -40px;
+}
+.mojo-awardresult .hd a {
+    float: right;
+    margin-right: 10px;
+}
+.mojo-awardresult .hd a, .mojo-awardresult .hd a.more:link, .mojo-awardresult .hd a.more:visited {
+    color: #282828;
+}
+.mojo-awardresult .award-time {
+    color: #333333;
+    float: right;
+    margin-right: 2px;
+}
+.mojo-awardresult table td {
+    height: 25px;
+    line-height: 25px;
+    padding: 0 8px;
+}
+.mojo-awardresult table span {
+    color: #FF0000;
+    font-weight: 700;
+}
+.mojo-awardresult table em {
+    color: #FF0000;
+}
+.mojo-awardresult .block-table1 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #F6F6F6;
+    border-color: #CACACA;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 0;
+    width: 100%;
+}
+.mojo-awardresult .block-table1 .ball {
+    height: 30px;
+}
+.mojo-awardresult .block-table1 .ball span {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll -418px -40px transparent;
+    color: #FFFFFF;
+    float: left;
+    font-family: arial;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    margin-right: 1px;
+    text-align: center;
+    width: 24px;
+}
+.mojo-awardresult .block-table1 .ball span.extra {
+    background-position: -384px -40px;
+}
+.mojo-awardresult .block-table2 {
+    border-bottom: 1px solid #CACACA;
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+}
+.mojo-awardresult .block-table2 tbody tr td {
+    border-top: 1px solid #DEDEDE;
+}
+.mojo-awardresult .block-table2 .num {
+    color: #FF0000;
+    font-weight: 700;
+}
+.mojo-awardresult .block-table2 .num span {
+    color: #224EA5;
+}
+.mojo-awardresult .block-table2 .pos {
+    color: #FF0000;
+}
+.mojo-awardresult .block-table2 a.more, .mojo-awardresult .block-table2 a.more:link, .mojo-awardresult .block-table2 a.more:visited {
+    color: #808080;
+}
+.mojo-awardresult .ft {
+    margin-top: 3px;
+}
+.mojo-awardresult .collapse-bar {
+    cursor: pointer;
+    display: block;
+    text-align: right;
+}
+.mojo-awardresult .collapse-bar:hover {
+    text-decoration: none;
+}
+.mojo-awardresult .unfold {
+    margin-top: 0;
+}
+.mojo-awardresult .fold {
+    margin-top: 0;
+}
+.mojo-awardresult .collapse-bar span {
+    border: 1px solid white;
+    color: #808080;
+    display: block;
+    padding-right: 4px;
+}
+.mojo-awardresult .collapse-bar img.arrow {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll 9999px 9999px transparent;
+    height: 13px;
+    width: 11px;
+}
+.mojo-awardresult .unfold img.arrow {
+    background-position: -200px -410px;
+}
+.mojo-awardresult .fold img.arrow {
+    background-position: -200px -429px;
+}
+.mojo-help .h-title {
+    background-position: -200px -20px;
+}
+.mojo-help .loading {
+    width: 230px;
+}
+.mojo-help a:link, .mojo-help a:visited {
+    color: #282828;
+}
+.mojo-help a:hover {
+    color: #FF722D;
+}
+.mojo-help .tab-nav, .mojo-rank .tab-nav {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll -450px -560px transparent;
+    height: 32px;
+    padding-left: 10px;
+}
+.mojo-help .tab-nav li, .mojo-rank .tab-nav li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CACACA;
+    cursor: pointer;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    margin-right: 5px;
+    padding: 0 7px;
+}
+.mojo-help .tab-nav li.current, .mojo-rank .tab-nav li.current {
+    background: none repeat scroll 0 0 #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+}
+.mojo-help .tab-pannel ul {
+    padding: 10px 0 10px 10px;
+}
+.mojo-help .tab-pannel ul li {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll -738px -368px transparent;
+    line-height: 20px;
+    padding-left: 6px;
+}
+.mojo-help .ft {
+    padding-right: 10px;
+    text-align: right;
+}
+.mojo-rank .loading {
+    height: 200px;
+    line-height: 200px;
+    width: 230px;
+}
+.mojo-rank .h-title {
+    background-position: -200px 0;
+}
+.ranking-tab {
+    position: relative;
+}
+.ranking-title {
+    background: none repeat scroll 0 0 #F8F8F8;
+    color: #282828;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 8px;
+}
+.ranking-tab .sub-tab-nav {
+    background: none repeat scroll 0 0 #F2F2F2;
+    height: 22px;
+    padding-left: 10px;
+}
+.ranking-tab .sub-tab-nav li {
+    cursor: pointer;
+    float: left;
+    padding: 0 5px;
+}
+.ranking-tab .sub-tab-nav li.current {
+    font-weight: 700;
+}
+.ranking-list li {
+    background: url("http://img03.taobaocdn.com/tps/i3/T17eHpXihrXXaCGD7h-740-700.png") no-repeat scroll 9999px 9999px transparent;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    position: relative;
+}
+.ranking-list li span {
+    margin-left: 25px;
+}
+.ranking-list li em {
+    color: #FF0000;
+    font-weight: 700;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+.ranking-list li.r1 {
+    background-position: -713px 7px;
+}
+.ranking-list li.r2 {
+    background-color: #F8F8F8;
+    background-position: -713px -18px;
+}
+.ranking-list li.r3 {
+    background-position: -713px -46px;
+}
+.ranking-list li.r4 {
+    background-color: #F8F8F8;
+    background-position: -713px -76px;
+}
+.ranking-list li.r5 {
+    background-position: -713px -105px;
+}
+.ranking-list li.r6 {
+    background-color: #F8F8F8;
+    background-position: -713px -136px;
+}
+.ranking-list li.r7 {
+    background-position: -713px -164px;
+}
+.ranking-list li.r8 {
+    background-color: #F8F8F8;
+    background-position: -713px -193px;
+}
+.ranking-list li.r9 {
+    background-position: -713px -221px;
+}
+.ranking-list li.r10 {
+    background-color: #F8F8F8;
+    background-position: -713px -248px;
+}
+.united-list .filter {
+    background: none repeat scroll 0 0 #E2E2E2;
+}
+.buy-list th {
+    background: none repeat scroll 0 0 #F4F4F4;
+}
+.unite-buy .buy-method, .unite-buy .block-tit {
+    background: none repeat scroll 0 0 #F2F2F2;
+}
+.unite-buy .block-tit {
+    color: #B71D03;
+}
+.unite-buy .buy-box .iwantbuy {
+    color: #B71D03;
+}
+.c-header h2 {
+    background: url("http://img01.taobaocdn.com/tps/i1/T1BmTXXnRpXXc14KMw-216-245.png") no-repeat scroll 0 0 transparent;
+}
+.c-header .content .header h3 {
+    background: url("http://img01.taobaocdn.com/tps/i1/T1BmTXXnRpXXc14KMw-216-245.png") no-repeat scroll -100px 0 transparent;
+    width: 61px;
+}
+.c-header .content .header .info p {
+    float: right;
+    margin: 0;
+}
+.c-header .content .header .info .red {
+    color: #FF0000;
+    display: inline;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.c-header .content .header img {
+    border: 1px none;
+    float: left;
+    margin-top: 9px;
+}
+.mojo-announce li.red a {
+    color: #FF0000;
+}
+.playtip .sh {
+    color: #808080;
+    position: absolute;
+    right: 10px;
+    text-decoration: underline;
+    top: 37px;
+}
+.mode1 .hd .main-tip {
+    margin-left: 90px;
+}
+.mode1 .hd .submain-tip {
+    color: #404040;
+    display: inline;
+    margin-left: 90px;
+    width: 600px;
+}
+.mode1 .hd .extra-tip {
+    color: #224EA5;
+    display: inline;
+    margin-left: 90px;
+    width: 600px;
+}
+.mode1 .bd .row .indicate {
+    margin: 10px 0 0 10px;
+    width: 80px;
+}
+.mode1 .bd .row .extra {
+    border: 0 none;
+}
+.mode1 .bd .row .extra li.selected .ball {
+    background-position: -390px 0;
+}
+.bet-basket .select-list {
+    background: url("http://img01.taobaocdn.com/tps/i1/T1BmTXXnRpXXc14KMw-216-245.png") no-repeat scroll 120px -116px #FFFFFF;
+    height: 132px;
+}

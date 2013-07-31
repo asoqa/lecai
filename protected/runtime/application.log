@@ -1,0 +1,311 @@
+2013/07/06 12:58:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in D:\Program Files\Zend\Apache2\htdocs\yii\framework\gii\GiiModule.php:168
+Stack trace:
+#0 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#3 D:\Program Files\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\Program Files\Zend\Apache2\htdocs\lecai\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/lecai/index.php?r=gii
+---
+2013/07/06 13:31:11 [error] [php] array_intersect() [<a href='function.array-intersect'>function.array-intersect</a>]: Argument #1 is not an array (D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php:383)
+Stack trace:
+#0 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(133): StatisticsController->runAction()
+#2 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): StatisticsController->filterAccessControl()
+#5 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(265): StatisticsController->runActionWithFilters()
+#8 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(282): StatisticsController->run()
+#9 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\Program Files\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\Program Files\Zend\Apache2\htdocs\lecai\index.php(13): CWebApplication->run()
+REQUEST_URI=/lecai/index.php?r=statistics%2Fguess&ajax=same-balls-issues
+in D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php (383)
+in D:\Program Files\Zend\Apache2\htdocs\lecai\index.php (13)
+2013/07/06 13:31:32 [error] [php] array_intersect() [<a href='function.array-intersect'>function.array-intersect</a>]: Argument #1 is not an array (D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php:383)
+Stack trace:
+#0 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(133): StatisticsController->runAction()
+#2 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): StatisticsController->filterAccessControl()
+#5 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(265): StatisticsController->runActionWithFilters()
+#8 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(282): StatisticsController->run()
+#9 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\Program Files\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\Program Files\Zend\Apache2\htdocs\lecai\index.php(13): CWebApplication->run()
+REQUEST_URI=/lecai/index.php?r=statistics/guess
+in D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php (383)
+in D:\Program Files\Zend\Apache2\htdocs\lecai\index.php (13)
+2013/07/06 13:31:52 [error] [php] array_intersect() [<a href='function.array-intersect'>function.array-intersect</a>]: Argument #1 is not an array (D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php:383)
+Stack trace:
+#0 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(133): StatisticsController->runAction()
+#2 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): StatisticsController->filterAccessControl()
+#5 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(265): StatisticsController->runActionWithFilters()
+#8 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(282): StatisticsController->run()
+#9 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\Program Files\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\Program Files\Zend\Apache2\htdocs\lecai\index.php(13): CWebApplication->run()
+REQUEST_URI=/lecai/index.php?r=statistics/guess
+in D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php (383)
+in D:\Program Files\Zend\Apache2\htdocs\lecai\index.php (13)
+2013/07/06 13:31:53 [error] [php] array_intersect() [<a href='function.array-intersect'>function.array-intersect</a>]: Argument #1 is not an array (D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php:383)
+Stack trace:
+#0 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(133): StatisticsController->runAction()
+#2 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): StatisticsController->filterAccessControl()
+#5 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(265): StatisticsController->runActionWithFilters()
+#8 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(282): StatisticsController->run()
+#9 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\Program Files\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\Program Files\Zend\Apache2\htdocs\lecai\index.php(13): CWebApplication->run()
+REQUEST_URI=/lecai/index.php?r=statistics/guess
+in D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php (383)
+in D:\Program Files\Zend\Apache2\htdocs\lecai\index.php (13)
+2013/07/06 13:32:06 [error] [php] array_intersect() [<a href='function.array-intersect'>function.array-intersect</a>]: Argument #1 is not an array (D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php:383)
+Stack trace:
+#0 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(133): StatisticsController->runAction()
+#2 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): StatisticsController->filterAccessControl()
+#5 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(265): StatisticsController->runActionWithFilters()
+#8 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(282): StatisticsController->run()
+#9 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\Program Files\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\Program Files\Zend\Apache2\htdocs\lecai\index.php(13): CWebApplication->run()
+REQUEST_URI=/lecai/index.php?r=statistics/guess
+in D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php (383)
+in D:\Program Files\Zend\Apache2\htdocs\lecai\index.php (13)
+2013/07/06 13:32:08 [error] [php] array_intersect() [<a href='function.array-intersect'>function.array-intersect</a>]: Argument #1 is not an array (D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php:383)
+Stack trace:
+#0 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(133): StatisticsController->runAction()
+#2 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): StatisticsController->filterAccessControl()
+#5 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(265): StatisticsController->runActionWithFilters()
+#8 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(282): StatisticsController->run()
+#9 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\Program Files\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\Program Files\Zend\Apache2\htdocs\lecai\index.php(13): CWebApplication->run()
+REQUEST_URI=/lecai/index.php?r=statistics/guess
+in D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php (383)
+in D:\Program Files\Zend\Apache2\htdocs\lecai\index.php (13)
+2013/07/06 13:32:24 [error] [php] array_intersect() [<a href='function.array-intersect'>function.array-intersect</a>]: Argument #1 is not an array (D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php:383)
+Stack trace:
+#0 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(133): StatisticsController->runAction()
+#2 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): StatisticsController->filterAccessControl()
+#5 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(265): StatisticsController->runActionWithFilters()
+#8 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(282): StatisticsController->run()
+#9 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\Program Files\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\Program Files\Zend\Apache2\htdocs\lecai\index.php(13): CWebApplication->run()
+REQUEST_URI=/lecai/index.php?r=statistics/guess
+in D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php (383)
+in D:\Program Files\Zend\Apache2\htdocs\lecai\index.php (13)
+2013/07/06 13:32:25 [error] [php] array_intersect() [<a href='function.array-intersect'>function.array-intersect</a>]: Argument #1 is not an array (D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php:383)
+Stack trace:
+#0 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(133): StatisticsController->runAction()
+#2 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): StatisticsController->filterAccessControl()
+#5 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(265): StatisticsController->runActionWithFilters()
+#8 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(282): StatisticsController->run()
+#9 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\Program Files\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\Program Files\Zend\Apache2\htdocs\lecai\index.php(13): CWebApplication->run()
+REQUEST_URI=/lecai/index.php?r=statistics/guess
+in D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php (383)
+in D:\Program Files\Zend\Apache2\htdocs\lecai\index.php (13)
+2013/07/06 13:32:25 [error] [php] array_intersect() [<a href='function.array-intersect'>function.array-intersect</a>]: Argument #1 is not an array (D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php:383)
+Stack trace:
+#0 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(133): StatisticsController->runAction()
+#2 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): StatisticsController->filterAccessControl()
+#5 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(265): StatisticsController->runActionWithFilters()
+#8 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(282): StatisticsController->run()
+#9 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\Program Files\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\Program Files\Zend\Apache2\htdocs\lecai\index.php(13): CWebApplication->run()
+REQUEST_URI=/lecai/index.php?r=statistics/guess
+in D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php (383)
+in D:\Program Files\Zend\Apache2\htdocs\lecai\index.php (13)
+2013/07/06 13:32:25 [error] [php] array_intersect() [<a href='function.array-intersect'>function.array-intersect</a>]: Argument #1 is not an array (D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php:383)
+Stack trace:
+#0 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(133): StatisticsController->runAction()
+#2 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): StatisticsController->filterAccessControl()
+#5 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(265): StatisticsController->runActionWithFilters()
+#8 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(282): StatisticsController->run()
+#9 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\Program Files\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\Program Files\Zend\Apache2\htdocs\lecai\index.php(13): CWebApplication->run()
+REQUEST_URI=/lecai/index.php?r=statistics/guess
+in D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php (383)
+in D:\Program Files\Zend\Apache2\htdocs\lecai\index.php (13)
+2013/07/06 13:32:43 [error] [php] array_intersect() [<a href='function.array-intersect'>function.array-intersect</a>]: Argument #1 is not an array (D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php:383)
+Stack trace:
+#0 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(133): StatisticsController->runAction()
+#2 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): StatisticsController->filterAccessControl()
+#5 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(265): StatisticsController->runActionWithFilters()
+#8 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(282): StatisticsController->run()
+#9 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\Program Files\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\Program Files\Zend\Apache2\htdocs\lecai\index.php(13): CWebApplication->run()
+REQUEST_URI=/lecai/index.php?r=statistics/guess
+in D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\StatisticsController.php (383)
+in D:\Program Files\Zend\Apache2\htdocs\lecai\index.php (13)
+2013/07/13 11:24:00 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2013080' for key 'issue_UNIQUE'. The SQL statement executed was: INSERT INTO `statistics` (`sum_r`, `min_r`, `max_r`, `mean_r`, `sum_all`, `max_all`, `min_all`, `mean_all`, `issue`, `date`, `redball`, `parity_b`, `blueball`, `binary_b`, `bit0_b`, `bit1_b`, `parity_r`, `binary_r`, `bit0_r`, `bit1_r`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11, :yp12, :yp13, :yp14, :yp15, :yp16, :yp17, :yp18, :yp19).
+in D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\HistoryController.php (241)
+in D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\HistoryController.php (407)
+in D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\HistoryController.php (77)
+2013/07/13 11:24:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2013080' for key 'issue_UNIQUE'. The SQL statement executed was: INSERT INTO `statistics` (`sum_r`, `min_r`, `max_r`, `mean_r`, `sum_all`, `max_all`, `min_all`, `mean_all`, `issue`, `date`, `redball`, `parity_b`, `blueball`, `binary_b`, `bit0_b`, `bit1_b`, `parity_r`, `binary_r`, `bit0_r`, `bit1_r`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11, :yp12, :yp13, :yp14, :yp15, :yp16, :yp17, :yp18, :yp19)' in D:\Program Files\Zend\Apache2\htdocs\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 D:\Program Files\Zend\Apache2\htdocs\yii\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 D:\Program Files\Zend\Apache2\htdocs\yii\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\HistoryController.php(241): CActiveRecord->save()
+#3 D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\HistoryController.php(407): HistoryController->saveStatistic(Object(History), true)
+#4 D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\HistoryController.php(77): HistoryController->execStatistics(true)
+#5 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\actions\CInlineAction.php(49): HistoryController->actionCreate()
+#6 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#15 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('history/create')
+#16 D:\Program Files\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 D:\Program Files\Zend\Apache2\htdocs\lecai\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/lecai/index.php?r=history/create
+HTTP_REFERER=http://localhost:6090/lecai/index.php?r=history/create
+---
+2013/07/13 11:25:41 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2013079' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `history` (`issue`, `date`, `result`, `sale`, `pricebool`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\HistoryController.php (75)
+in D:\Program Files\Zend\Apache2\htdocs\lecai\index.php (13)
+2013/07/13 11:25:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2013079' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `history` (`issue`, `date`, `result`, `sale`, `pricebool`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4)' in D:\Program Files\Zend\Apache2\htdocs\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 D:\Program Files\Zend\Apache2\htdocs\yii\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 D:\Program Files\Zend\Apache2\htdocs\yii\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\HistoryController.php(75): CActiveRecord->save()
+#3 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\actions\CInlineAction.php(49): HistoryController->actionCreate()
+#4 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('history/create')
+#14 D:\Program Files\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\Program Files\Zend\Apache2\htdocs\lecai\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/lecai/index.php?r=history/create
+HTTP_REFERER=http://localhost:6090/lecai/index.php?r=history/create
+---
+2013/07/13 11:27:55 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2013080' for key 'issue_UNIQUE'. The SQL statement executed was: INSERT INTO `statistics` (`sum_r`, `min_r`, `max_r`, `mean_r`, `sum_all`, `max_all`, `min_all`, `mean_all`, `issue`, `date`, `redball`, `parity_b`, `blueball`, `binary_b`, `bit0_b`, `bit1_b`, `parity_r`, `binary_r`, `bit0_r`, `bit1_r`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11, :yp12, :yp13, :yp14, :yp15, :yp16, :yp17, :yp18, :yp19).
+in D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\HistoryController.php (241)
+in D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\HistoryController.php (407)
+in D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\HistoryController.php (77)
+2013/07/13 11:27:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2013080' for key 'issue_UNIQUE'. The SQL statement executed was: INSERT INTO `statistics` (`sum_r`, `min_r`, `max_r`, `mean_r`, `sum_all`, `max_all`, `min_all`, `mean_all`, `issue`, `date`, `redball`, `parity_b`, `blueball`, `binary_b`, `bit0_b`, `bit1_b`, `parity_r`, `binary_r`, `bit0_r`, `bit1_r`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11, :yp12, :yp13, :yp14, :yp15, :yp16, :yp17, :yp18, :yp19)' in D:\Program Files\Zend\Apache2\htdocs\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 D:\Program Files\Zend\Apache2\htdocs\yii\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 D:\Program Files\Zend\Apache2\htdocs\yii\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\HistoryController.php(241): CActiveRecord->save()
+#3 D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\HistoryController.php(407): HistoryController->saveStatistic(Object(History), true)
+#4 D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\HistoryController.php(77): HistoryController->execStatistics(true)
+#5 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\actions\CInlineAction.php(49): HistoryController->actionCreate()
+#6 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#15 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('history/create')
+#16 D:\Program Files\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 D:\Program Files\Zend\Apache2\htdocs\lecai\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/lecai/index.php?r=history/create
+HTTP_REFERER=http://localhost:6090/lecai/index.php?r=history/create
+---
+2013/07/13 13:42:44 [error] [exception.CException] exception 'CException' with message 'Alias "./simple_html_dom.php" is invalid. Make sure it points to an existing directory or file.' in D:\Program Files\Zend\Apache2\htdocs\yii\framework\YiiBase.php:341
+Stack trace:
+#0 D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\HistoryController.php(2): YiiBase::import('./simple_html_d...')
+#1 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(354): require('D:\Program File...')
+#2 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('history/collect')
+#3 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('history/collect')
+#4 D:\Program Files\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\Program Files\Zend\Apache2\htdocs\lecai\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/lecai/index.php?r=history/collect
+---
+2013/07/13 13:42:59 [error] [exception.CException] exception 'CException' with message 'Alias "simple_html_dom.php" is invalid. Make sure it points to an existing directory or file.' in D:\Program Files\Zend\Apache2\htdocs\yii\framework\YiiBase.php:341
+Stack trace:
+#0 D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\HistoryController.php(2): YiiBase::import('simple_html_dom...')
+#1 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(354): require('D:\Program File...')
+#2 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('history/collect')
+#3 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('history/collect')
+#4 D:\Program Files\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\Program Files\Zend\Apache2\htdocs\lecai\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/lecai/index.php?r=history/collect
+---
+2013/07/13 13:43:00 [error] [exception.CException] exception 'CException' with message 'Alias "simple_html_dom.php" is invalid. Make sure it points to an existing directory or file.' in D:\Program Files\Zend\Apache2\htdocs\yii\framework\YiiBase.php:341
+Stack trace:
+#0 D:\Program Files\Zend\Apache2\htdocs\lecai\protected\controllers\HistoryController.php(2): YiiBase::import('simple_html_dom...')
+#1 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(354): require('D:\Program File...')
+#2 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('history/collect')
+#3 D:\Program Files\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('history/collect')
+#4 D:\Program Files\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\Program Files\Zend\Apache2\htdocs\lecai\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/lecai/index.php?r=history/collect
+---
